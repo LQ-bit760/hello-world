@@ -13,5 +13,11 @@
 - [x] 安装 Git 并配置
 - [x] 生成 SSH 密钥并绑定到 GitHub
 - [x] 创建本地仓库并完成第一次提交
-- [ ] 推送到 GitHub
+- [x] 推送到 GitHub（2026-11-14 完成）
 - [ ] 建一个分支，提第一个 Pull Request
+
+## 踩过的坑
+
+- GitHub 的 22 端口在国内经常被封，改用 `ssh.github.com:443` 就能连上
+- Git Bash 里不要手打中文路径，用 Tab 补全；`cd` 后面也不能放 `*`
+- `D:\deepseek` 是 DeepSeek 客户端安装目录，练习文件一律放进 `工作区` 子目录
